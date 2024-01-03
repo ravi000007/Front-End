@@ -1,0 +1,50 @@
+/* #container{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black; */
+    /* background-image: linear-gradient(-120deg,red,cyan,blue) ; */
+    /* background: repeating-linear-gradient(to top right , red ,blue 10px);
+    */
+
+    /* background: radial-gradient(red,blue); */
+
+/* } */
+
+/* p:active{
+    background-color: cyan;
+}
+
+a:active{
+    color :red;
+}
+
+a:visited{
+    color:green;
+} */
+
+/* a:target{
+    background-color: aqua;
+} */
+
+
+/* LightBox CSS  */
+
+
+#lightbox{
+    width: 0;
+    height:0 ;
+    position: fixed;
+    top: 0;
+    left:0;
+    overflow: hidden;
+    transition:all 2s ease-in-out;
+}
+
+#lightbox:target{
+    width: 30%;
+    height: 30%;
+    background-color: lightgrey;
+    left: 25%;
+    top: 25%;
+}
+
